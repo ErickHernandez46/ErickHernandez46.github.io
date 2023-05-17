@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manos de Amatista</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <section id="header"> 
+            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="shop.html">Tienda</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">    
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+            <h2>#TuCarrito</h2> 
+            <p>Añade un cupón de descuento y ahorra hasta 50%</p>
+        </section>
+        
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Eliminar</td>
+                        <td>Imagen</td>
+                        <td>Producto</td>
+                        <td>Precio</td>
+                        <td>Cantidad</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f1.jpg" alt=""></td>
+                        <td>Gel semipermanente</td>
+                        <td>$350</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$350</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f2.jpg" alt=""></td>
+                        <td>Acrílico</td>
+                        <td>$450</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$450</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f3.jpg" alt=""></td>
+                        <td>Gel + Diseño sencillo</td>
+                        <td>$550</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$550</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Aplica un Cupón</h3>
+                <div>
+                    <input type="text" placeholder="Ingresa tu código">
+                    <button class="normal">Aplicar</button>
+                </div>
+            </div>
+
+            <div id="subtotal">
+                <h3>Total del carrito</h3>
+                <table>
+                    <tr>
+                        <td>Subtotal del carrito</td>
+                        <td>$ 335</td>
+                    </tr>
+                    <tr>
+                        <td>IVA</td>
+                        <td>$50</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$ 385</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceder al pago</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="">
+                <h4>Contacto</h4>
+                <p><strong>Dirección: </strong> C. Gabriel Mancera 877, Colonia del Valle, CDMX</p>
+                <p><strong>Teléfono: </strong> +52 56 2022 1935</p>
+                <p><strong>Horario: </strong> 10:00 - 20:00, Lun - Sáb</p>
+                <div class="follow">
+                    <h4>Síguenos en:</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>Acerca de</h4>
+                <a href="#">Nosotrxs</a>
+                <a href="#">Información de entrega</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Contáctanos</a>
+            </div>
+
+            <div class="col">
+                <h4>Mi Cuenta</h4>
+                <a href="#">Acceder</a>
+                <a href="#">Ver carrito</a>
+                <a href="#">Favoritos</a>
+                <a href="#">Pedidos </a>
+                <a href="#">Ayuda</a>
+            </div>
+
+            <div class="col install">
+                <h4>Instala nuestra app</h4>
+                <p>En App Store o Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Métodos de pago:</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+
+            <div class="derechos de autor">
+                <p>© 2023, Manos de Amatista - Ecommerce Web</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
